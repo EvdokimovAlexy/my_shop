@@ -1,14 +1,10 @@
 from django.urls import path
-from .views import index, shopping_cart, sorted_shopping_cart
-
-
-
+from . import views
+from .views import index
 
 urlpatterns = [
     path('', index, name='index'),
     path('index/', index, name='index'),
-    path('user/<int:user_id>/', shopping_cart, name='basket'),
-    path('user_sorted/<int:user_id>/<int:days_ago>/', sorted_shopping_cart, name='sorted_shopping_cart'),
-
-
+    path('products/', views.get_all_products, name='products'),
+    path('change_product/<int:product_id>/', views.change_product, name='change_product'),
 ]

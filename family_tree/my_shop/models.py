@@ -19,9 +19,9 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     description = models.TextField()
     quantity = models.IntegerField()
-    date_new_product = models.DateField(auto_now_add=True)
-    image = models.ImageField(upload_to='images')
-    # product_image поле не обязательное !
+    # date_new_product = models.DateField(auto_now_add=True)
+    image = models.ImageField(null=True)
+    # added_at = models.DateField(auto_now=True)
 
     def __str__(self):
         return f'Product name: {self.name}, price: {self.price},  description: {self.description}, quantity: {self.quantity}'

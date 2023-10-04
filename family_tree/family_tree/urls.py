@@ -16,8 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+from my_shop.views import upload_image
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('prefix/', include('family_tree_app.urls')),
-]
+path('admin/', admin.site.urls),
+    path('my_shop/', include('my_shop.urls')),
+path('upload/', upload_image, name='upload_image'),
+        ]
