@@ -1,3 +1,2337 @@
 Watching for file changes with StatReloader
 "GET /prefix/about/ HTTP/1.1" 200 1275
 "GET /prefix/about/ HTTP/1.1" 200 1275
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2171
+Not Found: /index
+"GET /index HTTP/1.1" 404 2204
+"GET /prefix HTTP/1.1" 301 0
+"GET /prefix/ HTTP/1.1" 200 1172
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2171
+Not Found: /about
+"GET /about HTTP/1.1" 404 2204
+"GET /prefix/ HTTP/1.1" 200 1172
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2171
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2222
+"GET /prefix HTTP/1.1" 301 0
+"GET /prefix/ HTTP/1.1" 200 1172
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2171
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10664
+"GET /prefix/ HTTP/1.1" 200 10664
+"GET / HTTP/1.1" 200 10664
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+"GET /prefix/ HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+"GET / HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+"GET / HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+"GET /index HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+"GET /shopping_cart HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+"GET /prefix HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+"GET /index HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+"GET /index.html HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+"GET /shopping_cart HTTP/1.1" 200 10664
+"GET /favicon.ico HTTP/1.1" 200 10664
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, "myapp2/index.html")
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp2/index.html
+"GET / HTTP/1.1" 500 78841
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2976
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, "myapp2/index.html")
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp2/index.html
+"GET / HTTP/1.1" 500 78841
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, "myapp2/index.html")
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp2/index.html
+"GET / HTTP/1.1" 500 78841
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2976
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, "my_shop/index.html")
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET / HTTP/1.1" 500 78855
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, "my_shop/index.html")
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET / HTTP/1.1" 500 78992
+Not Found: /my_shop
+"GET /my_shop HTTP/1.1" 404 2964
+Not Found: /my_shop/index
+"GET /my_shop/index HTTP/1.1" 404 2982
+"GET /homework3 HTTP/1.1" 301 0
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, "my_shop/index.html")
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78975
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10664
+"GET /prefix/about/ HTTP/1.1" 200 10664
+"GET /homework3/ HTTP/1.1" 200 10664
+"GET /homework3/index HTTP/1.1" 200 10664
+"GET /homework3/index.html HTTP/1.1" 200 10664
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, "my_shop/index.html")
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78975
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET / HTTP/1.1" 500 78855
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 78743
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET / HTTP/1.1" 500 78855
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78975
+"GET /homework3/index HTTP/1.1" 301 0
+Internal Server Error: /homework3/index/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/index/ HTTP/1.1" 500 79047
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1172
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78975
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1172
+"GET /homework3 HTTP/1.1" 301 0
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'myapp/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET /homework3/ HTTP/1.1" 500 78947
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1172
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'myapp/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET /homework3/ HTTP/1.1" 500 78947
+Internal Server Error: /homework3/index/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'myapp/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET /homework3/index/ HTTP/1.1" 500 79019
+Not Found: /homework3/index.html
+"GET /homework3/index.html HTTP/1.1" 404 3270
+Not Found: /homework3/admin
+"GET /homework3/admin HTTP/1.1" 404 3255
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'myapp/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET / HTTP/1.1" 500 78827
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+Not Found: /my_shop
+"GET /my_shop HTTP/1.1" 404 2854
+Not Found: /index.html
+"GET /index.html HTTP/1.1" 404 2863
+Not Found: /base.html
+"GET /base.html HTTP/1.1" 404 2860
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10664
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'myapp/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET /homework3/ HTTP/1.1" 500 78947
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'myapp/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET /homework3/ HTTP/1.1" 500 79084
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'myapp/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET /homework3/ HTTP/1.1" 500 78947
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'myapp/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET /homework3/ HTTP/1.1" 500 78947
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78975
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78975
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78975
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 79311
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET / HTTP/1.1" 500 79187
+Not Found: /admin/
+"GET /admin/ HTTP/1.1" 404 2553
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Not Found: /my_shop
+"GET /my_shop HTTP/1.1" 404 2213
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 79311
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 79086
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET /homework3/ HTTP/1.1" 500 78837
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /my_shop
+"GET /my_shop HTTP/1.1" 404 2213
+E:\_GB\family_tree\family_tree\my_shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78949
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 8, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78949
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 9, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78891
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+Not Found: /
+"GET / HTTP/1.1" 404 2174
+Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 9, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /homework3/ HTTP/1.1" 500 78891
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2166
+"GET /3 HTTP/1.1" 301 0
+Internal Server Error: /3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 9, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /3/ HTTP/1.1" 500 78795
+Not Found: /3/shopping_cart
+"GET /3/shopping_cart HTTP/1.1" 404 2886
+Not Found: /3/shopping_cart/index
+"GET /3/shopping_cart/index HTTP/1.1" 404 2904
+Not Found: /3/shopping_cart.html
+"GET /3/shopping_cart.html HTTP/1.1" 404 2901
+"GET /3/index HTTP/1.1" 301 0
+Internal Server Error: /3/index/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 9, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /3/index/ HTTP/1.1" 500 78867
+Not Found: /3/index.html
+"GET /3/index.html HTTP/1.1" 404 2877
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2166
+Internal Server Error: /3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 9, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /3/ HTTP/1.1" 500 78850
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2166
+Internal Server Error: /3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 9, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /3/ HTTP/1.1" 500 78854
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop HTTP/1.1" 301 0
+Internal Server Error: /my_shop/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 9, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /my_shop/ HTTP/1.1" 500 78926
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10664
+"GET /homework3/ HTTP/1.1" 200 10664
+"GET /about HTTP/1.1" 200 10664
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /about
+"GET /about HTTP/1.1" 404 2205
+"GET /my_shop HTTP/1.1" 301 0
+Internal Server Error: /my_shop/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 9, in index
+    return render(request, 'my_shop/index.html')
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_shop/index.html
+"GET /my_shop/ HTTP/1.1" 500 78867
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/ HTTP/1.1" 200 1092
+Not Found: /my_shop/user_sorted
+"GET /my_shop/user_sorted HTTP/1.1" 404 2922
+Not Found: /my_shop/user_sorted/'id'/'days
+"GET /my_shop/user_sorted/'id'/'days HTTP/1.1" 404 3000
+Not Found: /my_shop/shopping_cart
+"GET /my_shop/shopping_cart HTTP/1.1" 404 2928
+Not Found: /my_shop/ user/<int:user_id>/ [name='shopping_cart']
+"GET /my_shop/%20user/%3Cint:user_id%3E/%20[name='shopping_cart'] HTTP/1.1" 404 3074
+Not Found: /user_sorted/<int:user_id>/<int:days_ago>/ [name='sorted_shopping_cart']
+"GET /user_sorted/%3Cint:user_id%3E/%3Cint:days_ago%3E/%20[name='sorted_shopping_cart'] HTTP/1.1" 404 2473
+Not Found: /my_shop/user_sorted/<int:user_id>/<int:days_ago>/ [name='sorted_shopping_cart']
+"GET /my_shop/user_sorted/%3Cint:user_id%3E/%3Cint:days_ago%3E/%20[name='sorted_shopping_cart'] HTTP/1.1" 404 3172
+Not Found: /my_shop/ [name='index']
+"GET /my_shop/%20[name='index'] HTTP/1.1" 404 2972
+E:\_GB\family_tree\family_tree\my_shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/ HTTP/1.1" 200 1092
+Internal Server Error: /my_shop/user
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shopping_cart() missing 1 required positional argument: 'user_id'
+"GET /my_shop/user HTTP/1.1" 500 61732
+Not Found: /my_shop/user/'id
+"GET /my_shop/user/'id HTTP/1.1" 404 2865
+Not Found: /my_shop/userid
+"GET /my_shop/userid HTTP/1.1" 404 2844
+Not Found: /my_shop/user/'id'
+"GET /my_shop/user/'id' HTTP/1.1" 404 2883
+Not Found: /my_shop/sorted_shopping_cart
+"GET /my_shop/sorted_shopping_cart HTTP/1.1" 404 2886
+Not Found: /my_shop/user_sorted [name='sorted_shopping_cart']
+"GET /my_shop/user_sorted%20[name='sorted_shopping_cart'] HTTP/1.1" 404 2987
+E:\_GB\family_tree\family_tree\my_shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/ HTTP/1.1" 200 1092
+Internal Server Error: /my_shop/user_all_orders
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shopping_cart() missing 1 required positional argument: 'user_id'
+"GET /my_shop/user_all_orders HTTP/1.1" 500 61831
+Not Found: /my_shop/user_all_orders'1'
+"GET /my_shop/user_all_orders'1' HTTP/1.1" 404 2921
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/ HTTP/1.1" 200 1092
+Not Found: /my_shop/user/'id'
+"GET /my_shop/user/'id' HTTP/1.1" 404 2894
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+E:\_GB\family_tree\family_tree\my_shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /my_shop/ HTTP/1.1" 200 1092
+Not Found: /my_shop/user/'1'
+"GET /my_shop/user/'1' HTTP/1.1" 404 2936
+Not Found: /my_shop/user/'id'
+"GET /my_shop/user/'id' HTTP/1.1" 404 2939
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/ HTTP/1.1" 200 1092
+Not Found: /my_shop/user/'3'
+"GET /my_shop/user/'3' HTTP/1.1" 404 2936
+Not Found: /my_shop/user/'id'
+"GET /my_shop/user/'id' HTTP/1.1" 404 2939
+Not Found: /my_shop/basket
+"GET /my_shop/basket HTTP/1.1" 404 2900
+Not Found: /my_shop/sorted_shopping_cart
+"GET /my_shop/sorted_shopping_cart HTTP/1.1" 404 2942
+Not Found: /my_shop/ user_sorted/<int:user_id>/<int:days_ago>/ [name='sorted_shopping_cart']
+"GET /my_shop/%20user_sorted/%3Cint:user_id%3E/%3Cint:days_ago%3E/%20[name='sorted_shopping_cart'] HTTP/1.1" 404 3170
+Not Found: /my_shop/ user/<3>/ [name='basket']
+"GET /my_shop/%20user/%3C3%3E/%20[name='basket'] HTTP/1.1" 404 3016
+"GET /my_shop/ HTTP/1.1" 200 1092
+Not Found: /my_shop/user_sorted/'id'/'days'
+"GET /my_shop/user_sorted/'id'/'days' HTTP/1.1" 404 3011
+Not Found: /my_shop/my_shop/user_all_orders.html
+"GET /my_shop/my_shop/user_all_orders.html HTTP/1.1" 404 2966
+Not Found: /my_shop/my_shop/basket
+"GET /my_shop/my_shop/basket HTTP/1.1" 404 2924
+Not Found: /my_shop/user
+"GET /my_shop/user HTTP/1.1" 404 2894
+Not Found: /my_shop/ index/
+"GET /my_shop/%20index/ HTTP/1.1" 404 2905
+Not Found: /my_shop/user_sorted/1/80'
+"GET /my_shop/user_sorted/1/80' HTTP/1.1" 404 2948
+"GET /my_shop/user_sorted/1/80 HTTP/1.1" 301 0
+Internal Server Error: /my_shop/user_sorted/1/80/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: my_shop_product.date_new_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 31, in sorted_shopping_cart
+    for product in products:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: my_shop_product.date_new_product
+"GET /my_shop/user_sorted/1/80/ HTTP/1.1" 500 130478
+Internal Server Error: /my_shop/user_sorted/2/80/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: my_shop_product.date_new_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 31, in sorted_shopping_cart
+    for product in products:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: my_shop_product.date_new_product
+"GET /my_shop/user_sorted/2/80/ HTTP/1.1" 500 130811
+"GET /my_shop/user_sorted/2/1/ HTTP/1.1" 200 241
+"GET /my_shop/user_sorted/2/3/ HTTP/1.1" 200 241
+"GET /my_shop/user_sorted/2/4/ HTTP/1.1" 200 241
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /my_shop/ HTTP/1.1" 200 1092
+"GET /my_shop/user_sorted/2/1/ HTTP/1.1" 200 241
+"GET /my_shop/user_sorted/2/1/ HTTP/1.1" 200 241
+"GET /my_shop/user_sorted/2/1/ HTTP/1.1" 200 241
+"GET /my_shop/user_sorted/2/1/ HTTP/1.1" 200 241
+"GET /my_shop/user_sorted/2/1/ HTTP/1.1" 200 241
+"GET /my_shop/user_sorted/2/1/ HTTP/1.1" 200 241
+"GET /my_shop/user_sorted/2/1/ HTTP/1.1" 200 241
+Internal Server Error: /my_shop/user_sorted/2/365/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: my_shop_product.date_new_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 31, in sorted_shopping_cart
+    for product in products:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: my_shop_product.date_new_product
+"GET /my_shop/user_sorted/2/365/ HTTP/1.1" 500 131124
+"GET /my_shop/user_sorted/365/1/ HTTP/1.1" 200 231
+"GET /my_shop/user_sorted/20/1/ HTTP/1.1" 200 231
+"GET /my_shop/user_sorted/20/5/ HTTP/1.1" 200 231
+"GET /my_shop/user_sorted/20/5/ HTTP/1.1" 200 231
+"GET /my_shop/user_sorted/15/5/ HTTP/1.1" 200 231
+"GET /my_shop/user_sorted/15/5/ HTTP/1.1" 200 231
+"GET /my_shop/user_sorted/15/30/ HTTP/1.1" 200 233
+"GET /my_shop/user_sorted/15/7/ HTTP/1.1" 200 231
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/ HTTP/1.1" 200 804
+"GET /my_shop/user_sorted/1/70 HTTP/1.1" 301 0
+"GET /my_shop/user_sorted/1/70/ HTTP/1.1" 200 845
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/ HTTP/1.1" 200 992
+"GET /my_shop/ HTTP/1.1" 200 992
+"GET /my_shop/ HTTP/1.1" 200 992
+"GET /my_shop/ HTTP/1.1" 200 992
+"GET /my_shop/user_sorted/1/70/ HTTP/1.1" 200 972
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+Not Found: /products
+"GET /products HTTP/1.1" 404 2214
+"GET /my_shop/ HTTP/1.1" 200 916
+"GET /my_shop/products HTTP/1.1" 301 0
+Internal Server Error: /my_shop/products/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 13, in get_all_products
+    return render(request, 'my_shop/products.html', {'products': products})
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /my_shop/products/ HTTP/1.1" 500 151886
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/ HTTP/1.1" 200 916
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+Internal Server Error: /my_shop/change_product/1/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view my_shop.views.change_product didn't return an HttpResponse object. It returned None instead.
+"GET /my_shop/change_product/1/? HTTP/1.1" 500 66861
+Internal Server Error: /my_shop/change_product/1/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view my_shop.views.change_product didn't return an HttpResponse object. It returned None instead.
+"GET /my_shop/change_product/1/? HTTP/1.1" 500 66861
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+Internal Server Error: /my_shop/change_product/1/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view my_shop.views.change_product didn't return an HttpResponse object. It returned None instead.
+"GET /my_shop/change_product/1/? HTTP/1.1" 500 66861
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+Internal Server Error: /my_shop/products/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: my_shop_product.added_at
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 13, in get_all_products
+    return render(request, 'my_shop/products.html', {'products': products})
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: my_shop_product.added_at
+"GET /my_shop/products/ HTTP/1.1" 500 204629
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+Internal Server Error: /my_shop/change_product/1/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view my_shop.views.change_product didn't return an HttpResponse object. It returned None instead.
+"GET /my_shop/change_product/1/? HTTP/1.1" 500 66861
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+Internal Server Error: /my_shop/change_product/1/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view my_shop.views.change_product didn't return an HttpResponse object. It returned None instead.
+"GET /my_shop/change_product/1/? HTTP/1.1" 500 66861
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+Internal Server Error: /my_shop/change_product/1/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view my_shop.views.change_product didn't return an HttpResponse object. It returned None instead.
+"GET /my_shop/change_product/1/? HTTP/1.1" 500 66861
+Not Found: /my_shop/change_product/1/3
+"GET /my_shop/change_product/1/3 HTTP/1.1" 404 2901
+Internal Server Error: /my_shop/change_product/2/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view my_shop.views.change_product didn't return an HttpResponse object. It returned None instead.
+"GET /my_shop/change_product/2/? HTTP/1.1" 500 66861
+Internal Server Error: /my_shop/change_product/3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view my_shop.views.change_product didn't return an HttpResponse object. It returned None instead.
+"GET /my_shop/change_product/3/? HTTP/1.1" 500 66861
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+Internal Server Error: /my_shop/products/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: my_shop_product.added_at
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 13, in get_all_products
+    return render(request, 'my_shop/products.html', {'products': products})
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: my_shop_product.added_at
+"GET /my_shop/products/ HTTP/1.1" 500 204629
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+Internal Server Error: /my_shop/change_product/1/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view my_shop.views.change_product didn't return an HttpResponse object. It returned None instead.
+"GET /my_shop/change_product/1/? HTTP/1.1" 500 66861
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+Internal Server Error: /my_shop/change_product/1/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 36, in change_product
+    'price': product.price, 'amount': product.amount, 'image': product.image})
+AttributeError: 'Product' object has no attribute 'amount'
+"GET /my_shop/change_product/1/? HTTP/1.1" 500 66736
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+Internal Server Error: /my_shop/change_product/3/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 37, in change_product
+    'price': product.price, 'amount': product.amount, 'image': product.image})
+AttributeError: 'Product' object has no attribute 'amount'
+"GET /my_shop/change_product/3/? HTTP/1.1" 500 66726
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+Internal Server Error: /my_shop/change_product/1/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 37, in change_product
+    'price': product.price, 'amount': product.amount, 'image': product.image})
+AttributeError: 'Product' object has no attribute 'amount'
+"GET /my_shop/change_product/1/? HTTP/1.1" 500 66735
+E:\_GB\family_tree\family_tree\my_shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /my_shop/products/ HTTP/1.1" 200 9790
+"GET /my_shop/change_product/1/? HTTP/1.1" 200 1711
+- Broken pipe from ('127.0.0.1', 60774)
+"POST /my_shop/change_product/1/? HTTP/1.1" 302 0
+"GET /my_shop/products/ HTTP/1.1" 200 9816
+"GET /my_shop/change_product/2/? HTTP/1.1" 200 1547
+"GET /my_shop/products/ HTTP/1.1" 200 9816
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2351
+"GET /my_shop/products HTTP/1.1" 301 0
+Internal Server Error: /my_shop/products/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: my_shop_product.amount
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\family_tree\my_shop\views.py", line 15, in get_all_products
+    return render(request, 'my_shop/products.html', {'products': products})
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: my_shop_product.amount
+"GET /my_shop/products/ HTTP/1.1" 500 204240
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4340
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4350
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4350
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7065
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+Internal Server Error: /admin/my_shop/client/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: my_shop_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: my_shop_client
+"GET /admin/my_shop/client/ HTTP/1.1" 500 177831
+"GET /admin/ HTTP/1.1" 200 7065
+Internal Server Error: /admin/my_shop/order/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: my_shop_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: my_shop_client
+"GET /admin/my_shop/order/ HTTP/1.1" 500 159735
+"GET /admin/ HTTP/1.1" 200 7065
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /my_shop/products/ HTTP/1.1" 200 331
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4350
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7056
+"GET /admin/my_shop/client/ HTTP/1.1" 200 8489
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/my_shop/order/ HTTP/1.1" 200 8031
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/product/ HTTP/1.1" 200 8535
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/order/ HTTP/1.1" 200 8031
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/product/ HTTP/1.1" 200 8535
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/order/ HTTP/1.1" 200 8031
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/client/ HTTP/1.1" 200 8489
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/order/ HTTP/1.1" 200 8031
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/product/ HTTP/1.1" 200 8535
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/client/ HTTP/1.1" 200 8489
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/client/add/ HTTP/1.1" 200 11215
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/my_shop/client/add/ HTTP/1.1" 302 0
+"GET /admin/my_shop/client/ HTTP/1.1" 200 10271
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/my_shop/order/ HTTP/1.1" 200 8031
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/product/ HTTP/1.1" 200 8535
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/my_shop/product/add/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (rating, quantity, category, date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (rating, quantity, category, date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+"GET /admin/my_shop/product/add/ HTTP/1.1" 500 131711
+"GET /admin/my_shop/product/ HTTP/1.1" 200 8535
+"GET /my_shop/products/ HTTP/1.1" 200 331
+"GET /admin/my_shop/client/ HTTP/1.1" 200 10061
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/order/ HTTP/1.1" 200 8031
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/my_shop/order/add/ HTTP/1.1" 200 12172
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+Internal Server Error: /admin/my_shop/product/add/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (rating, quantity, category, date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (rating, quantity, category, date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+"GET /admin/my_shop/product/add/?_to_field=id&_popup=1 HTTP/1.1" 500 132638
+"GET /admin/my_shop/product/ HTTP/1.1" 200 8535
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/my_shop/product/add/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (rating, quantity, category, date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (rating, quantity, category, date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+"GET /admin/my_shop/product/add/ HTTP/1.1" 500 131711
+"GET /admin/my_shop/product/ HTTP/1.1" 200 8535
+"GET /admin/ HTTP/1.1" 200 7385
+"GET /admin/auth/user/ HTTP/1.1" 200 11567
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/ HTTP/1.1" 200 7385
+E:\_GB\family_tree\family_tree\my_shop\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/my_shop/product/ HTTP/1.1" 200 8535
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/ HTTP/1.1" 200 7385
+"GET /admin/my_shop/product/ HTTP/1.1" 200 8535
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/my_shop/product/add/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, quantity, category) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, quantity, category) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+"GET /admin/my_shop/product/add/ HTTP/1.1" 500 131711
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2351
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 200 7385
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+Internal Server Error: /admin/my_shop/product/add/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (quantity, category, date_added, rating) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (quantity, category, date_added, rating) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+"GET /admin/my_shop/product/add/ HTTP/1.1" 500 131695
+E:\_GB\family_tree\family_tree\my_shop\admin.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\my_shop\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/my_shop/product/add/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (category, rating, date_added, quantity) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (category, rating, date_added, quantity) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+"GET /admin/my_shop/product/add/ HTTP/1.1" 500 131832
+E:\_GB\family_tree\family_tree\my_shop\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /admin/ HTTP/1.1" 200 7385
+Internal Server Error: /admin/my_shop/product/add/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'added_at' cannot be specified for Product model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'added_at' cannot be specified for Product model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+"GET /admin/my_shop/product/add/ HTTP/1.1" 500 136539
+E:\_GB\family_tree\family_tree\my_shop\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /my_shop/ HTTP/1.1" 200 1516
+"GET /my_shop/products HTTP/1.1" 301 0
+"GET /my_shop/products/ HTTP/1.1" 200 904
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /upload HTTP/1.1" 301 0
+"GET /upload/ HTTP/1.1" 200 1275
+"GET /admin/ HTTP/1.1" 200 7385
+Internal Server Error: /admin/my_shop/product/add/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (quantity, category, rating, date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (quantity, category, rating, date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+"GET /admin/my_shop/product/add/ HTTP/1.1" 500 131695
+E:\_GB\family_tree\family_tree\my_shop\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /admin/ HTTP/1.1" 200 7385
+Internal Server Error: /admin/my_shop/product/add/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added, quantity, category, rating) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added, quantity, category, rating) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+"GET /admin/my_shop/product/add/ HTTP/1.1" 500 131695
+E:\_GB\family_tree\family_tree\my_shop\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /admin/ HTTP/1.1" 200 7385
+"GET /admin/my_shop/product/add/ HTTP/1.1" 200 11863
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"POST /admin/my_shop/product/add/ HTTP/1.1" 302 0
+"GET /admin/my_shop/product/ HTTP/1.1" 200 10588
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /my_shop/products/ HTTP/1.1" 200 1491
+Not Found: /
+"GET / HTTP/1.1" 404 2300
+"GET /admin/my_shop/product/ HTTP/1.1" 200 10375
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1516
