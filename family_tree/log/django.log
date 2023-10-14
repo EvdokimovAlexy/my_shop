@@ -2335,3 +2335,527 @@ Not Found: /
 E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
 Watching for file changes with StatReloader
 "GET / HTTP/1.1" 200 1516
+"GET / HTTP/1.1" 200 1220
+"GET / HTTP/1.1" 200 1266
+"GET / HTTP/1.1" 200 1266
+"GET / HTTP/1.1" 200 1266
+"GET / HTTP/1.1" 200 1198
+"GET /admin/ HTTP/1.1" 200 7684
+"GET /my_shop/products/ HTTP/1.1" 200 1491
+"GET / HTTP/1.1" 200 1322
+"GET /my_shop/products/ HTTP/1.1" 200 1491
+"GET / HTTP/1.1" 200 1317
+"GET /my_shop/products/ HTTP/1.1" 200 1491
+"GET / HTTP/1.1" 200 1317
+"GET / HTTP/1.1" 200 1317
+"GET /admin/ HTTP/1.1" 200 7684
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET / HTTP/1.1" 500 135189
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /favicon.ico HTTP/1.1" 500 134888
+Internal Server Error: /my_shop/
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /my_shop/ HTTP/1.1" 500 135261
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /favicon.ico HTTP/1.1" 500 134896
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET / HTTP/1.1" 500 135189
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /favicon.ico HTTP/1.1" 500 134888
+Internal Server Error: /admin
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /admin HTTP/1.1" 500 135064
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /favicon.ico HTTP/1.1" 500 134893
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1317
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3060
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET / HTTP/1.1" 500 135189
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "E:\_GB\family_tree\venv\lib\site-packages\debug_toolbar\toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\_GB\family_tree\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET / HTTP/1.1" 500 135189
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10301
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+"GET /__debug__/render_panel/?store_id=e482c9b7b8b549afa23135bf4640afae&panel_id=SQLPanel HTTP/1.1" 200 26268
+"GET /__debug__/render_panel/?store_id=e482c9b7b8b549afa23135bf4640afae&panel_id=RequestPanel HTTP/1.1" 200 1830
+"GET /__debug__/render_panel/?store_id=e482c9b7b8b549afa23135bf4640afae&panel_id=TemplatesPanel HTTP/1.1" 200 5229
+"GET / HTTP/1.1" 200 10300
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /__debug__/render_panel/?store_id=18aa3225c51344be917bf92c6dffa7cb&panel_id=SettingsPanel HTTP/1.1" 200 26882
+"GET /__debug__/render_panel/?store_id=18aa3225c51344be917bf92c6dffa7cb&panel_id=HeadersPanel HTTP/1.1" 200 4388
+"GET /__debug__/render_panel/?store_id=18aa3225c51344be917bf92c6dffa7cb&panel_id=RequestPanel HTTP/1.1" 200 1830
+"GET /__debug__/render_panel/?store_id=18aa3225c51344be917bf92c6dffa7cb&panel_id=SignalsPanel HTTP/1.1" 200 2186
+"GET / HTTP/1.1" 200 10703
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\_GB\family_tree\family_tree\family_tree\urls.py changed, reloading.
+Watching for file changes with StatReloader

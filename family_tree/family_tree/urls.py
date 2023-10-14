@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from my_shop.views import upload_image
+
 urlpatterns = [
-path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('', include('my_shop.urls')),
     path('my_shop/', include('my_shop.urls')),
-path('upload/', upload_image, name='upload_image'),
-        ]
+    path('upload/', upload_image, name='upload_image'),
+    # path('__debug__/', include("debug_toolbar.urls")),
+]
